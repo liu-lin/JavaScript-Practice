@@ -21,8 +21,7 @@ function restoreScrollPos(strPageName, elementid)
             //destroy the cookie
             //deleteCookie(strPageName + "scrollPosX");
             //deleteCookie(strPageName + "scrollPosY");
-            
-			document.getElementById(elementid).scrollTop = posY;
+            		document.getElementById(elementid).scrollTop = posY;
 			document.getElementById(elementid).scrollLeft = posX;
 		}
 	}
